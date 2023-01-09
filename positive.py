@@ -1,6 +1,10 @@
 #positive list of numbers
-list=[3,25,0,-1,4,-6]
-print(list)
+lst=[]
+n=int(input("Enter number of elements in list:"))
+for i in range(n):
+    elem=int(input())
+    lst.append(elem)
+print(lst) 
 print("positive numbers from above list are:")
 for i in list:
     if(i>0):
